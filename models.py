@@ -8,7 +8,7 @@ class Patient:
     # update 3
     def get_name(self):
         return self.name
-    
+    # update 4
 
     def get_time(self):
         return self.time
