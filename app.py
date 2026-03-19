@@ -29,7 +29,6 @@ def add_patient():
         return redirect("/")
 
     return render_template("add.html")
-
-
+    # counter 2
 if __name__ == "__main__":
     app.run(debug=True)
