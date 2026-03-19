@@ -23,6 +23,7 @@ def add_patient():
         name = request.form.get("name")
 
         patient = Patient(name)
+        
 
         queue.append(patient)  # enqueue
 
