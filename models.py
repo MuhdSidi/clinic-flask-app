@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class Patient:
-
+    # update 2
     def __init__(self, name):
         self.name = name
         self.time = datetime.now()
