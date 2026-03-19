@@ -3,7 +3,7 @@ from models import Patient
 from datetime import datetime
 
 app = Flask(__name__)
-
+# updatee 1
 # Queue (FIFO)
 queue = []
 
